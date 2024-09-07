@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Practica HTML</title>
+</head>
+<body>
+  <h1>Este es un encabezado grandote</h1> 
+  <nav>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </nav>
+  <header>La cabecera de nuestra pagina</header>
+  <br>
+  <section>
+    <article>
+        Esto es un parrafo normal <br>
+        <a href="https://www.jornada.com.mx/">Periodico la Jornada</a>
+        </article>
+        <article>
+            Imagen 1 <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRsRIrTZQudKQdifpvki9mIbalpcWDvbQiLQ&s" alt="Gomita Maui"> <br>
+            Imagen 2 <br>
+            <img src="./Imagenes/Gomita.jpeg" alt="Gomita carotas">
+        </article>
+        <article>
+            Audio <br>
+            <audio src="./Audio/KAROL G - Amargura (Visualizer).mp3" type="audio/mp3" controls="controls"></audio> <br>
+            Video <br>
+            <video src="./Video/videogomita.mp4" type="video/mp4" controls="controls"></video> <br>
+        </article>
+</section>
+<section>
+    <h3>Tipos de elementos en un formulario </h3>
+    <form action="./practica1.html" oninput="range_control_value.value =range_control.valueAsNumber" method="get">
+        <p>
+            Nombre: <input type-"text" name-"name_control" autofocus required />
+             <br/> 
+            Correo Electronico: <input type-"email" name="email_control" required /> 
+            <br/>
+            URL: 
+            <input type-"url" name="url_control" placeholder="Escribe la URL de tu pagina web personal" /> 
+            <br/> 
+            Fecha: <input type-"date" name="date_control" /> 
+            <br/> 
+            Tiempo: <input type="time" name="time_control"/> 
+            <br/> 
+            Fecha y hora de nacimiento: 
+            <input type-"datetime" name="datetime_control" />
+            <br/> 
+            Mes: <input type="month" name-""month_control" />
+            <br/> 
+            Semana: <input type="week" name="week_control" />
+            <br/>
+            Número (min -10, max 10): 
+            <input type="number" name="number_control" min="-10" max="10" value-"0" />
+            <br/>
+            Intervalo (min 0, max 10):
+            <input type="range" name="range control" min="0" max="10" value="0" />
+            <output for="range_control" name="range_control _value">0</output> 
+            <br/> 
+            Teléfono: <input type="tel" name- "tel_control" /> 
+            <br/> 
+            Término de busqueda: <input type="search" name="search_control" /> 
+            <br/>
+            Color Favorito: <input type=" color" name="color _control" /> 
+            <br/> 
+            <input type="submit" value="Submit!" />
+        </p>
+    </form>
+</section>
+  <footer>Este es el pie de mi pagina web</footer>
+</body>
+</html>
